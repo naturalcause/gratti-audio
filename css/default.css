@@ -47,6 +47,20 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 800px) {
+  #budget {
+    height: 57px;
+  }
+}
+
+#budget {
+  resize: none;
+}
+
+#details {
+  resize: none;
+}
+
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
