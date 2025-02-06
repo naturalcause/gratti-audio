@@ -26,6 +26,18 @@
   content: url(../img/ig_hover.png); 
 }
 
+.contact-form {
+  width: 100%;
+  position: relative;
+}
+
+.custom-container {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;

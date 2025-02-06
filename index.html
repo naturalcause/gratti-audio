@@ -94,27 +94,39 @@
             <p class="lead py-3">Yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada.</p>
         </div>
 
-        <div class="container">
+        <div class="custom-container">
             <form action="action_page.php">
           
               <label for="name">Name</label><br>
-              <input type="text" id="name" name="name" placeholder="First and Last Name">
+              <input type="text" id="name" name="name" placeholder="First and Last Name" class="contact-form" required>
               <p></p>
           
               <label for="email">Email</label><br>
-              <input type="email" id="email" name="email" placeholder="youremail@domain.com">
+              <input type="email" id="email" name="email" placeholder="youremail@domain.com" class="contact-form" required>
               <p></p>
 
               Service Requested<br>
-              Checkboxes: Editing, Mixing, Mastering, Events, Consultation, Other
+              <input type="checkbox" id="editing" name="editing" value="editing">
+              <label for="editing">Editing</label><br>
+              <input type="checkbox" id="mixing" name="mixing" value="mixing">
+              <label for="mixing">Mixing</label><br>
+              <input type="checkbox" id="mastering" name="mastering" value="mastering">
+              <label for="mastering">Mastering</label><br>
+              <input type="checkbox" id="events" name="events" value="events">
+              <label for="events">Events</label><br>
+              <input type="checkbox" id="consultation" name="consultation" value="consultation">
+              <label for="consultation">Consultation</label><br>
+              <input type="checkbox" id="other" name="other" value="other">
+              <label for="other">Other (Please Specify)</label><br>
               <p></p>
 
               <label for="budget">What is your proposed budget?</label><br>
-              <input type="text" id="budget" name="budget" placeholder="If still working it out, please put an approximate range">
+              <input type="text" id="budget" name="budget" placeholder="If still working it out, please put an approximate range" class="contact-form" required>
               <p></p>
 
               <label for="details">Further Details</label><br>
-              <input type="text" id="details" name="details" placeholder="If you have any questions, ask away! I&#39d love to know what genre, how many songs, how many tracks are used, etc...">
+              <textarea id="details" name="details" rows="3" placeholder="If you have any questions, ask away! I&#39d love to know what genre, how many songs, how many tracks are used, etc..." class="contact-form" required></textarea>
+              
               <p></p>
 
               <input type="submit" value="Submit">
