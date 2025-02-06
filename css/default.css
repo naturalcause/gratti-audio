@@ -38,6 +38,15 @@
   transform: translate(-50%, 0%);
 }
 
+#ig-logo {
+  margin-top: 20px;
+}
+
+#footy-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
